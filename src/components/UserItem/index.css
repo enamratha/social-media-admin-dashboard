@@ -1,0 +1,39 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #87c5c9;
+  color: #185161;
+}
+
+.row-cell-username {
+  width: 15vw;
+  text-align: left;
+}
+
+.row-cell-name {
+  width: 20vw;
+}
+
+.row-cell-email {
+  width: 25vw;
+}
+
+.row-cell-options {
+  flex-grow: 1;
+  display: flex;
+  text-decoration: none;
+}
+
+.id-row-cell {
+  width: 10vw;
+}
+
+.banned {
+  background-color: #f7eded;
+  color: #8f1414;
+}
+
+.banned-text {
+  text-decoration: line-through #8f1414;
+}

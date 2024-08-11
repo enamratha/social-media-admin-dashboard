@@ -1,0 +1,49 @@
+.post-item-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #87c5c9;
+  min-height: 50px;
+  padding: 10px;
+  color: #185161;
+}
+
+.post-id {
+  width: 10vw;
+}
+
+.post-comment {
+  width: 27vw;
+  margin-right: 20px;
+}
+
+.post-img {
+  width: 25vw;
+}
+
+.post-options {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.post-media-heading {
+  width: 25vw;
+}
+
+.deleted {
+  text-decoration: line-through;
+  filter: grayscale(1);
+  background-color: #dee2e3;
+}
+.hidden-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  font-size: 28px;
+  margin-left: 10px;
+}

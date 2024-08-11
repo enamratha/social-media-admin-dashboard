@@ -1,0 +1,19 @@
+.mini-kpi-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.kpi-heading {
+  color: #0c5270;
+}
+
+.mini-kpi {
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 #82b5b3, 0 1px 10px 0 #82b5b3;
+  margin-right: 20px;
+  margin-left: 20px;
+}

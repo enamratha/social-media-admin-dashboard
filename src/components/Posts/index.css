@@ -1,0 +1,23 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  overflow: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+}
+
+.next-back-icon {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 3px;
+}
